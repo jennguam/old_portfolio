@@ -226,7 +226,7 @@ and (min-width : 1224px) {
 
 	.overlay:hover:before{
 	  display: block;
-	  background-color: rgba(0,0,0,.7);
+	  background-color: rgba(0,0,0,.5);
 	  pointer-events: none;
 
 
