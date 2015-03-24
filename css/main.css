@@ -60,14 +60,30 @@ ul.nav.navbar-nav{
 	margin-left:20px;
 }
 .well {
-	
-	
+	margin-top: 20px;
 }
 .section {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	display:block;
 }
+.projHeading{
+	text-transform: uppercase;
+	font-weight:bold;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+.projDesc{
+	font-family:  Arial, Helvetica, sans-serif;
+}
 
+.bottomMarg{
+	margin-bottom: 30px;
+}
+.topMarg{
+	margin-top: 80px;
+}
+footer {
+ display:both;
+}
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Media Queries
