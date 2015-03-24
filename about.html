@@ -16,8 +16,8 @@
 
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
-     <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -34,12 +34,12 @@
 !-->
     <!-- Page Content -->
     <div class="container">
-
+        <div id="header">
         <!-- Page Header -->
         <div class="row-fluid">
             <div class="page-header col-lg-12">
                 <div class="navbar"></div>
-                <div class="col-lg-5"><h1 class="header-name">Meet Jenn.</h1></div>
+                <div class="col-lg-5"><h1 class="header-name"><a class="namelink" href="/">Meet Jenn.</a></h1></div>
                  <div class="col-lg-7">
                     <nav class="navbar navbar-right" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display !-->
@@ -55,7 +55,7 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li class="active">
-                                    <a href="/">Projects</a>
+                                    <a href="./">Projects</a>
                                 </li>
                                 <li>
                                     <a href="about">About</a>
@@ -74,33 +74,21 @@
                 </div>
             </div>
         </div>
-                
+        </div> <!-- header -->      
         <!-- /.row -->
-
         <!-- Projects Row -->
-        <div class="row section">
-            <div class="col-md-8"><img class="img-responsive" src="images/Third Wave Coffee Homepage Mockup.png"></div>
-          <div class="col-md-4 well">
-            <h4>Quick Mockup</h4>
-            <p>Third Wave Coffee is a project between me and Gabe. It is meant to be a coffee bean review site. This is really useful to us, because we’re traveling the country trying different roasters. </p><p>There doesn’t exist something where we can take notes of flavor profiles, or look back at all the coffees we’ve tried. He is coding the back end whilst I design the front end. This is a mock-up to guide me while I transfer the design into code.</p>
-          </div>
-        </div>
-        <!-- /.row -->
-
-        <div class="row section">
-            <div class="col-md-8"><img class="img-responsive" src="images/Third Wave Coffee Homepage Mockup.png"></div>
-          <div class="col-md-4 well">
-            <h4>Quick Mockup</h4>
-            <p>Third Wave Coffee is a project between me and Gabe. It is meant to be a coffee bean review site. This is really useful to us, because we’re traveling the country trying different roasters. </p><p>There doesn’t exist something where we can take notes of flavor profiles, or look back at all the coffees we’ve tried. He is coding the back end whilst I design the front end. This is a mock-up to guide me while I transfer the design into code.</p>
-          </div>
-        </div>
-
-
-        <!-- /.row -->
-
-    </div>
-    <!-- /.container -->
-     <div id="footer">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-4">
+                    <h2 class="text-center projHeading">Third Wave Coffee</h2><br>
+                </div>
+                <div class="col-md-7 col-md-offset-1">
+                    <p style="font-size:16px;"> This is a project between me and Gabe. It is meant to be a coffee bean review site. This is really useful to us, because we’re traveling the country trying different roasters and their beans. Think of this as a Untappd for Coffee. This site will be using Rails and designed by Illustrator and Sketch.</p>
+                </div>
+            </div> 
+        </div> <!-- row -->
+        <hr>
+        <div id="footer">
             <div class="text-center icons">
                     <a href="https://www.linkedin.com/in/jennleung"><i class="fa fa-align-center fa-linkedin-square fa-2x"></i>&nbsp;</a>
                     <a href="https://www.facebook.com/jenn.w.leung"><i class="fa fa-align-center fa-facebook-official fa-2x"></i>&nbsp;</a>
@@ -110,6 +98,7 @@
             </div>
             <div class="text-center cpright">&copy; Jenn Leung 2015</div>
         </div>
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
