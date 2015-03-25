@@ -51,14 +51,7 @@ body {
   float: none;
   margin-right: 0;
 }
-.accent{
-	background: #4EF2D4;
- 	width: 30px; 
-  	position: fixed; 
-  	height: 100%;
-  	top:0;
 
-}
 .portfolio-item{
     overflow:hidden;
     vertical-align:top;
@@ -249,6 +242,14 @@ and (min-width : 1224px) {
 	.cover {
 	    width: 400px;
 	    height: 300px;
+
+	}
+	.accent{
+		background: #4EF2D4;
+	 	width: 30px; 
+	  	position: fixed; 
+	  	height: 100%;
+	  	top:0;
 
 	}
 	.pfimg {
