@@ -41,7 +41,7 @@ body {
 	border: 3px solid #4EF2D4;
 	margin: -3px;
 	background-color: #FFFFFF;
-    color:#44C9B1;
+    color:#1f9a84;
 }
 .navbar-nav>li>a{
     color:#7A8282;
@@ -64,7 +64,7 @@ body {
 .namelink:hover {
 	border: 3px solid #4EF2D4 ; 
 	background-color: #FFFFFF;
-    color:#44C9B1;
+    color:#1f9a84;
     text-decoration: none;
     padding: 5px;
 }
@@ -251,6 +251,14 @@ and (min-width : 1224px) {
 	  	height: 100%;
 	  	top:0;
 
+	}
+	.embed {
+		height: 550px;
+		width:100%;
+	}
+	.resume{
+		height: 570px;
+		width:100%;
 	}
 	.pfimg {
 	    height: 100%;
