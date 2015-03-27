@@ -120,6 +120,15 @@ a.projnames:hover{
   flex-direction: column;
   height: 400px;
 }
+.tags{
+	border: #d1d1d1 solid 1px;
+	border-radius: 10px;
+	padding:10px;
+	opacity: .9;
+}
+.tagwrapper {
+	margin-top: 20px;
+}
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Media Queries
@@ -272,7 +281,7 @@ and (min-width : 1224px) {
 	    -moz-background-size: cover;
 	    -webkit-background-size: cover;
 	    background-position: center center;
-	    border-radius: 10px;
+	    //border-radius: 10px;
 
 	}
 	.overlay {
@@ -282,14 +291,14 @@ and (min-width : 1224px) {
 	}
 	.overlay:hover {
 	  background-color: rgba(0,0,0,.5);
-	   border-radius: 10px;
+	   //border-radius: 10px;
 	}
 	.overlay:before{
 	  position: absolute;
 	  top: 0; right: 0; bottom: 0; left: 0;
 	  background-color: inherit;
 	  content: ' ';
-	   border-radius: 10px;
+	   //border-radius: 10px;
 	}
 
 	.overlay:hover:before{
