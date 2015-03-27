@@ -114,6 +114,12 @@ a.projnames{
 a.projnames:hover{
 	text-decoration: underline;
 }
+.aboutme{
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Media Queries
