@@ -170,6 +170,7 @@ and (min-width : 321px) {
 	    background-position: center center;
 	}
 	
+
 }
 
 /* Smartphones (portrait) ----------- */
@@ -187,6 +188,8 @@ and (max-width : 320px) {
 	    -webkit-background-size: cover;
 	    background-position: center center;
 	}
+
+	
 	
 }
 
@@ -212,7 +215,7 @@ and (max-device-width : 1024px) {
 
 /* iPads (landscape) ----------- */
 @media only screen 
-and (min-device-width : 768px) 
+and (min-device-width : 600px) 
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 /* Styles */
@@ -271,10 +274,7 @@ and (min-width : 1224px) {
 		height: 525px;
 		width:100%;
 	}
-	.resume{
-		height: 630px;
-		width:112%;
-	}
+	
 	.pfimg {
 	    height: 100%;
 	    background-size: cover;
@@ -305,9 +305,8 @@ and (min-width : 1224px) {
 	  display: block;
 	  background-color: rgba(0,0,0,.5);
 	  pointer-events: none;
-
-
 	}
+
 }
 
 
@@ -392,4 +391,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
         background-color: transparent;
         background-image:none;
     }
+
+    
 }
