@@ -1,0 +1,513 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7722052/715186/css/fonts.css"/>
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+
+	 <!-- Use title if it's in the page YAML frontmatter -->
+	<title>Helpshift Key Takeaways Page - How to Engage Your Players and Spark Virality</title>
+
+	<meta name="description" content="Optimize engagement-to-share funnel with creative content, Combine retention and virality to reduce churn, Maximize reach with multi-channel community engagement" >
+	<meta name="keywords" content="helpshift, mobile, in-app, customer service, customer support, mobile helpdesk, help desk, customer service apps, in app customer support software, retention, application help desk, webinar, mobile games, monetization, 6992b44ac6988f66d281">
+
+
+	<meta property="og:title" content="Helpshift Webinar - How to Engage Your Players and Spark Virality" >
+	<meta property="og:description" content="Optimize engagement-to-share funnel with creative content, Combine retention and virality to reduce churn, Maximize reach with multi-channel community engagement" >
+
+	<meta property="og:url" content="http://www2.helpshift.com/webinar/rsvp">
+	<meta property="og:image" content="https://helpshift.com/static/images/social/fb-share-thumb.png">
+
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@helpshift">
+	<meta name="twitter:site:id" content="425774771">
+
+	<!-- For Twitter Ad Analytics -->
+	<meta property="twitter:account_id" content="425774771" />
+
+
+	<meta name="twitter:title" content="Helpshift Webcast - How to Engage Your Players and Spark Virality">
+	<meta name="twitter:description"  content="Optimize engagement-to-share funnel with creative content, Combine retention and virality to reduce churn, Maximize reach with multi-channel community engagement" >
+
+	<meta name="twitter:domain" content="https://helpshift.com">
+	<meta name="twitter:image:src" content="https://helpshift.com/static/images/social/twitter-card.png">
+	<meta name="twitter:image:width" content="800">
+	<meta name="twitter:image:height" content="400">
+
+
+	<link rel="icon" href="//d3e51fp79zp4el.cloudfront.net/sales-assets/24/static/images/icons/favicon.png">
+
+
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+
+	<meta name="wot-verification" content="6992b44ac6988f66d281">
+	<meta name="alexaVerifyID" content="t8IDAV4hnUOYSzMXuZudn_g27J0">
+	<meta name="google-site-verification" content="poHmn8bXc8y1N2YPUqlRKz0_kejpgi_fKsyYq5wQEqU">
+	<meta name="google-site-verification" content="uM5WRCp99tdDrOnwxUKURVf0yntg4vo0fCiAwQYdLBY">
+<style>
+
+html,body {
+    overflow-x: hidden; 
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.feature-description{
+	margin-top: 20px;
+	word-wrap: break-word;
+
+}
+
+.featureblock{
+	margin-top:2%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 25px;
+}
+#footer{
+	background-color: #226093;
+	padding: 20px 0 20px 0;
+
+}
+.social{
+	padding-top:10px;
+}
+#footer ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+
+}
+#footer ul li { display: inline; color: #FFF;}
+
+#footer ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+#offer{
+	padding: 0px 0 50px 0;
+}
+#offer-desc{
+	line-height: 1.5;
+	margin-left: -15px;
+
+}
+.title{
+	  font-size: 2rem;
+	  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Helvetica Neue", HelveticaNeue, Helvetica, Roboto, SegoeUI, Arial, sans-serif;
+	  font-weight: 400;
+	  line-height:1.1;
+	  color: #477db2;
+	  text-align: center;
+	}
+#date{
+	text-align:center;
+}
+.heading-title{
+	margin-top: 6%;
+}
+
+
+.container-fluid{
+	padding:0 !important;
+}
+a {
+	text-decoration: none;
+}
+
+
+p, li{
+	font-family: "Helvetica Neue", HelveticaNeue, Helvetica, Roboto, SegoeUI, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 1.75rem;
+}
+h3 {
+	font-family: "Source Sans Pro", "Helvetica Neue", HelveticaNeue, Helvetica, Roboto, SegoeUI, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 2.75rem;
+}
+
+.feature{
+	width: 100%;
+	padding-bottom: 1%;
+	margin-top:2%;
+}
+
+.imgContainer{
+	float:left;
+}
+
+
+.logo{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border: none;
+  vertical-align: middle;
+  
+}
+.logo-bottom{
+  width: 100px;
+  border: none;
+}
+.fa{
+	font-size: 20px;
+}
+.logo a {
+    display : block;
+    height : 113px;
+    text-indent : -9999px; 
+}
+
+.footer_list{
+	list-style-type: none;
+	padding:0; margin:0;
+	padding-top:20px 0 20px 0;
+	display: inline;
+
+
+}
+.footer_list li{
+	padding-left: 2em;
+}
+.footer_list li a:hover {
+	color: #2ebee5 !important;
+}
+h3{
+	color: #477db2;
+}
+a.highlight:hover{
+	text-decoration: underline;
+	color: #FEE590;
+}
+
+.takeaways li{
+	margin-left: -20px;
+	line-height: 1.5;
+}
+
+.takeaway-title{
+	font-size: 3rem;
+}
+.description{
+	padding-top:25px;
+}
+.circle-image {
+  width: 100%;
+  display: block;
+  background-position-y: 25%;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+#webcast-bullet {
+	margin-top: 0 !important;
+}
+ @media only screen and (min-width : 320px) {
+    .title{
+		font-size: 2.5rem;
+		font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Helvetica Neue", HelveticaNeue, Helvetica, Roboto, SegoeUI, Arial, sans-serif;
+	  font-weight: 400;
+	  display:block;
+
+	}
+
+	.heading-container{
+		text-align: center;
+		background-color: #226093;
+		height:10%;
+	}
+
+
+}
+
+@media only screen and (min-width : 480px) {
+	.title{
+		font-size: 2.5rem;
+		font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Helvetica Neue", HelveticaNeue, Helvetica, Roboto, SegoeUI, Arial, sans-serif;
+	  font-weight: 400;
+	 
+	  display:block;
+	}
+	.heading-container{
+		text-align: center;
+		background-color: #226093;
+		height:10%;
+	}
+
+
+}
+
+@media only screen and (min-width : 641px) {
+	.title{
+		font-size: 3.75rem;
+		font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Helvetica Neue", HelveticaNeue, Helvetica, Roboto, SegoeUI, Arial, sans-serif;
+	 	font-weight: 400;
+	 	display:block;
+	}
+
+	.heading-container{
+		text-align: center;
+		background-color: #226093;
+		height:10%;
+	}
+
+	
+}
+
+@media only screen and (min-width : 992px) {
+	.title{
+		font-size: 3.75rem;
+		font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Helvetica Neue", HelveticaNeue, Helvetica, Roboto, SegoeUI, Arial, sans-serif;
+	  font-weight: 400;
+	  
+	}
+
+	.heading-container{
+		margin-bottom:0;
+		margin-top: 0;
+	}
+
+}	
+
+</style>
+</head>
+
+<body>
+	<!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PPN2QB"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script type="text/javascript">
+
+	    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	      '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	      })(window,document,'script','dataLayer','GTM-PPN2QB');</script>
+    <!-- End Google Tag Manager -->
+
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="col-xs-12" style="padding:0;">
+			<div class="heading-container">
+					
+						<span class="helper"></span><a href="http://www.helpshift.com"><img src="http://bit.ly/1EfOTDx" class="logo"></a></div>
+					
+				</div>
+			<div class="herotext col-xs-12 col-lg-10 col-lg-offset-1">
+				
+				<div class="heading-title">
+					<div class="title">How to Engage Your Players &amp; Spark Virality</div><br>
+					<p id="date">Thursday, April 16 2015 at 11AM PST / 2PM EST</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="row-fluid">
+		
+		<div class="col-lg-12 col-xs-12 col-lg-offset-1 pad-me-top-30">
+			<div class="col-lg-10 col-xs-12" style="padding:0;">
+				<div class="col-xs-12">
+					<div class="videoWrapper">
+						<iframe width="100%" height="315" src="https://www.youtube.com/embed/4nUXtHUrGkY" frameborder="0" allowfullscreen></iframe>
+					</div>
+
+				</div>
+			</div>
+			
+	</div>
+	<div class="row-fluid">
+		<div class="description col-lg-12 col-xs-12">
+		<div class="col-lg-offset-1 col-lg-5">	
+				<p>A viral app is the highest form of achievement for any app developer. It means you've built an app users eagerly share through social networks, email, chat, and word of mouth.</p>
+
+				<p>This organic virality is far more powerful than any paid campaign.</p>
+				<p>Join <b><a style="color: #2ebee5;" href="https://www.linkedin.com/in/xtiancalderon">Christian Calderon</a> and <a style="color: #2ebee5;" href="https://www.linkedin.com/pub/eric-glover/18/b46/22b">Eric Glover, </a></b> as they uncover key strategies to deliver engaging content and create exponential value each time user interacts with your app.
+				</p>
+		</div>
+			<div class="col-lg-5">
+				<h4 id="webcast-bullet">In this webcast, you will learn how to:</b></h4>
+				<ul><li>Optimize engagement-to-share funnel with creative content.</li><br>
+				<li>Combine retention and virality to reduce churn.</li><br>
+				<li>Maximize reach with multi-channel community engagement.</li>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="col-lg-12 col-xs-12">
+			<div class="col-lg-offset-1 col-lg-10">
+				<hr>
+			</div>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+		<div class="col-lg-12 col-xs-12 col-lg-offset-1 pad-me-top-30">
+			<div class="col-xs-12 col-lg-12">
+				<h3>Guests</h3>
+			</div>
+			<div class="col-xs-12 col-lg-5">
+				<div class="col-xs-12 col-md-5 col-lg-4 description">
+					<img src="https://d3e51fp79zp4el.cloudfront.net/pardot/webinar/7.1/images/christian.png" class="circle-image img-responsive">
+				</div>
+				<div class="col-xs-12 col-md-6 col-md-offset-1 col-lg-6 description">
+					<h4>Christian Calderon, Head of Marketing at <a href="http://weplaydots.com/">Dots</a></h4>
+
+					<p>Christian Calderon is a data-minded marketer with a passion for econometrics and video games. His professional specialty lies in mobile marketing and predictive modeling for freemium games. Since joining Dots, his team has have than tripled the install base across the Dots mobile games network.   <a href="https://twitter.com/beta_control">@beta_control</a></p>
+
+				</div>
+			</div>
+			<div class="col-xs-12 col-lg-5">
+				<div class="col-xs-12 col-md-5 col-lg-4 description">
+					<img src="https://d3e51fp79zp4el.cloudfront.net/pardot/webinar/7.2/images/eric.png" class="circle-image img-responsive">
+				</div>
+				<div class="col-xs-12 col-md-6 col-md-offset-1 col-lg-6 description">
+					<h4>Eric Glover, Community Manager at <a href="http://weplaydots.com/">Dots</a></h4>
+
+					<p>Eric Glover manages all social media platforms for Dots and maps the course for what creative content (illustrations, video, GIFs) will be posted on them. Glover also oversees Dots community support team, which requires directing a team of hired ticket agents to address player concerns.   <a href="https://twitter.com/eaglove">@eaglove</a></p>
+
+				</div>
+			</div>
+			<!--<div class="col-xs-12 col-lg-5">
+				<div class="col-xs-12 col-md-5 col-lg-4 description">
+						<img src="https://www.helpshift.com/static/images/aboutus/team/sf/sheri.jpg" class="img-responsive circle-image">
+					</div>
+				<div class="col-xs-12 col-md-6 col-md-offset-1 col-lg-6 description">
+					<h4>Sheridan Gaenger, Director of Marketing, <a href="http://www.helpshift.com/">Helpshift</a></h4>
+
+					<p>Sheridan Gaenger is a sales and marketing expert with 8 years of experience at Salesforce. Her prowess includes B2B marketing, mobile tech, analyst relations and CRM. Gaenger is passionate about brand, digital, social, event, community, &amp; advocate marketing. <a href="https://twitter.com/gaengers">@GaengerS</a></p>
+
+				</div>
+			</div>!-->
+		
+		
+		</div>
+
+<div class="row-fluid">
+	<div class="feature col-lg-12 col-xs-12">
+		<div class="col-lg-offset-1 col-lg-10">
+			<hr>
+				<h3>Key Takeaways:</h3>
+		</div>
+	<div class="featureblock col-lg-12 col-lg-offset-1">
+		<div class="takeaway-title"><h4 class="feature-description">1. Define what Engagement Means &amp; Identify the Tools To Implement</h4></div>
+		
+		<div class="col-lg-7 col-xs-12">
+				<ul class="takeaways">
+					<li>For Dots, Engagement is defined by: any event that serves as an impression interacting with a user  — negative or positive.</li><br>
+					<li>The most impactful channels for Dots are Twitter &amp; Facebook: Retweet, Likes, Shares.</li><br>
+
+					<li>These types of engagements have the most impact on lowering CPI and actually correlate to the number of daily installs</li><br>
+
+					<li>It’s crucial to measure engagement over time. Need to collect a solid amount of data to analyze what is working, specifically related to Ad Spend.</li><br>
+
+					<li>Monitor your competition.</li><br>
+					<li>Build your strategy around the powerhouse engagements that drives true, personal and emotional discussion</li><br>
+				</ul>
+			
+		</div>
+	</div>
+		<div class="featureblock col-lg-12 col-lg-offset-1">
+		<div class="takeaway-title"><h4 class="feature-description">2. Build your Social Content Strategy around What Your Users Crave</h4>
+		</div>
+
+			<div class="col-lg-7 col-xs-12">
+				<ul class="takeaways">
+					
+					<li>Content Success comes down to not only the content that is being pushed, but to the medium it’s pushed through.</li><br>
+
+					<li>Post videos directly to Facebook provide more engagement over posting because you have the propensity to reach more community members.</li><br>
+
+					<li>Share content that is relevant to people’s lives outside of the game/app. Content that is personal and relevant can spark more engagement than branded content.</li><br>
+
+					<li>Identify the content that resonates with your community and build off that.</li><br>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="featureblock col-lg-12 col-lg-offset-1">
+			<div class="takeaway-title">
+				<h4 class="feature-description">3. Build the Right Team &amp; Remember your Players are your People</h4>
+			</div>
+		
+		<div class="col-lg-7 col-xs-12">
+			<ul class="takeaways">
+				
+				<li>The success of an app correlates directly to the team managing every business unit.</li><br>
+
+				<li>Understand the  tone of your community and adapt your engagement and collaboration accordingly.  For Dots, the community radiates humor, so they post internal content that sparks laughs.</li><br>
+
+				<li>Align the tone of your social media presence with the tone of your own company culture resonates with a highly engaged user base.</li><br>
+				<li>Encourage your players to become your promoters/app advocate by helping them when they need help.</li><br>
+				<li>Remember your user base is really looking for empathy and to feel like they’ve been heard. (Just taking this minor step goes a long way!)</li><br>
+				<li>Make sure your content is sharable and digestible.</li><br>
+
+			</ul>
+		</div>
+			<div class="col-lg-7 col-xs-12">
+				<p id="offer-desc">PS Helpshift is the easiest way to engage with your most loyal customers, reduce churn, and increase revenue all from a single dashboard. <a href="http://www2.helpshift.com/demo/schedule" style="color: #eb684d;"><b>Schedule a demo</b></a> with one of our Helpshift specialists to see if Helpshift is the right customer support solution for you.</p><br>
+			</div>
+		</div>
+
+		
+	</div>	
+</div>
+
+</div>
+<div id="footer" class="col-lg-12 col-xs-12">
+	<div class="row col-lg-offset-1 col-lg-10 col-xs-12">
+	 	<div class="col-lg-1 col-md-1 hidden-sm hidden-xs" style="padding:0;">
+	 		<a href="http://www.helpshift.com"><img src="http://bit.ly/1EfOTDx" class="logo-bottom">
+	 	</div>
+	<div class="col-lg-10 col-xs-12 social text-center">
+		<ul class="footer_list">
+		 	<li><a href="http://www.twitter.com/helpshift"><i class="fa fa-twitter"></i></a></li>
+		 	<li><a href="http://www.facebook.com/helpshift"><i class="fa fa-facebook"></i></li>
+		 	<li><a href="http://www.instagram.com/helpshiftsf"><i class="fa fa-instagram"></i></li>
+		 	<li><a href="http://plus.google.com/+Helpshift/posts"><i class="fa fa-google-plus"></i></li>
+		</ul>
+	</div>
+	</div>
+</div>
+
+</div>
+
+
+
+</body>
+	
+</html>
+
+
