@@ -19,6 +19,7 @@
     <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
      <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
      <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -80,15 +81,16 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-xs-12">
-                <div class="col-xs-10 col-xs-offset-2">
-                    <h2 class="projHeading">Current Cooking Adventures</h2>
-                    
+                <div class="col-xs-12">
+                    <h2 class="text-center projHeading">Current Cooking Adventures</h2>
+                    <div id="instafeed"></div><br>
                 </div>
-                    <script src="http://snapwidget.com/js/snapwidget.js"></script>
-                    <iframe src="http://snapwidget.com/in/?u=Z2FiZWFuZGplbm5jb29rfGlufDEyNXw1fDV8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=150715" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>
-                
+                    <!--<script src="http://snapwidget.com/js/snapwidget.js"></script>
+                    <iframe src="http://snapwidget.com/in/?u=Z2FiZWFuZGplbm5jb29rfGlufDEyNXw1fDV8fG5vfDV8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=150715" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%;"></iframe>-->
+                    
+            </div> <!-- row -->
+            
             </div> 
-        </div> <!-- row -->
          <a href="./"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>&nbsp;Back to Home</button></a>
         <hr>
         <div id="footer">
@@ -104,7 +106,15 @@
     </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var feed = new Instafeed({
+            get: 'user',
+            userId: 2000146709,
+            accessToken: '2000146709.467ede5.f99fe9ad3fbf4c40b4dc291df87deb0d'
+        });
+        feed.run();
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script>
