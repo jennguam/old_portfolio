@@ -81,106 +81,129 @@
         <!-- Projects Row -->
         <div class="row section">
             <div class="col-md-12 description">
-                <div class="col-md-4">
+                <div class="text-center">
                     <h2 class="text-center projHeading">Frontier Airlines</h2><br>
-                    <p class="text-center"><i>Sketch, Wireframing</i></p>
+                    <p class="text-center"><i>Sketch 3, Wireframing, Pen &amp; Paper, User Flow</i></p>
                 </div>
-                <div class="col-md-7 col-md-offset-1">
+                <!-- <div class="col-md-7 col-md-offset-1">
                     <p style="font-size:16px;">I chose to redesign Frontier’s Check In process because this was the last time I remembered I was truly frustrated at the design of an interface. Upon research, I discovered that Frontier does not have a responsive mobile web version of their website nor do they have a mobile application. For the purposes of this redesign, I chose to tackle the mobile web version.
                     </p>
                     
                     
-                </div>
+                </div> -->
 
             </div> 
             
             
             
 
-          <div class="col-md-12">
+          <div class="row col-md-12">
             <hr>
             <div class="topMarg" />
-            <!--<h3>Home Page</h3>-->
-            <p style="font-size:16px;">
-                Mobile web is not always considered the most important medium for a product, and it often gets overlooked in favor of desktop or native apps. However, in this case, I would argue that mobile web is very important, for a few reasons: <br>
-                - Travelers will largely not bother to download an app to check-in for a flight, unless they travel almost entirely on a single airline. <br>
-                - Travelers will often be without laptops or short on time, so they will use a mobile device for some significant portion of check-ins. <br>
-                - Checking in to a flight can and should be a quick and easy process.<br><br>
-                    
-            So, I decided to take on Frontier’s mobile web check-in process. Below, I’ve compared Frontier’s current user flow with my idea for an improved flow.</p>
+                <div class="col-md-12">
+                    <h1>Overview</h1><br>
+                </div>
+            <div class="col-md-12">
+                <p>I chose to redesign Frontier’s Check In process because this was the last time I remembered I was truly frustrated at the design of an interface. Upon research, I discovered that Frontier does not have a responsive mobile web version of their website nor do they have a mobile application. For the purposes of this redesign, I chose to tackle the redesign in the scope of mobile web.
+                </p><br>
+                <p>Mobile web is not always considered the most important medium for a product, and it often gets overlooked in favor of desktop or native apps. However, in this case, I would argue that mobile web is very important, for a few reasons: <br><br>
+                    <ul>
+                        <li><p>Travelers will largely not bother to download an app to check-in for a flight, unless they travel almost entirely on a single airline.</p></li> <br>
+                        <li> <p>Travelers will often be without laptops or short on time, so they will use a mobile device for some significant portion of check-ins.</p></li> <br>
+                        <li><p> Checking in to a flight can and should be a quick and easy process.</p></li>
+                    </ul><br>
+            </div>
+               
             <div class="bottomMarg" />
           </div>
         
-
-        <!-- /.row -->
-
-        <div class="row section">
-            <div class="col-md-5"><img class="img-responsive" src="images/Frontier/CurrentFlow.png"></div><div class="col-md-5 col-md-offset-1"><img class="img-responsive" src="images/Frontier/NewFlow.png"></div>
-            <div class="bottomMarg" />
-        </div>
-        <div class="col-md-12">
-            <hr>
+         <div class="row col-md-12">
             <div class="topMarg" />
-            <h3>I’ve included screenshots below of what the flow currently looks like.</h3>
+                <div class="col-md-12">
+                    <h1>Challenge</h1><br>
+                        <p>When I approached this project, my challenge was to design a seamless check in process for mobile web, a platform I hadn't previously designed for. </p>
+                </div>
+            
+              
+            <div class="bottomMarg" />
+          </div>
+
+        <div class="row col-md-12">
+            <div class="topMarg" />
+                <div class="col-md-12">
+                    <h1>Approach</h1><br>
+                        <h3>Define the Problem</h3>
+                        <p>Before I do anything, I always try to define the core problem that makes a product or process frustrating. I do this by approaching the problem through the user's eyes. This helps to bring out user pain points. </p><br>
+
+                        <p>First, I analyzed the existing flow of how people check into their flights. </p><br>
+
+                         <div class="col-md-6 col-xs-12 col-md-offset-2">
+                            <img class="img-responsive" src="images/Frontier/CurrentFlow.png"><br>
+                        </div>
+
+                         <div class="col-md-12">
+                             <p>There were a number of things that I found to be problematic in the current flow. <br><br>
+
+                             1. The reminder email brings the user to a redundant page that outlines the check in options that are available. It adds an extra click. The page has yet another “Check In” button. Wasn’t clicking the “Check In” button from the email already signify that the user wanted to check in online?<br><br>
+
+                             2. When you click "Check In" a 2nd time, it directed the user to a magnified unresponsive homepage. I've included what it looks like below. My first reaction was confusion. I didn't know where I was directed to.<br><br> Only after I scrolled down, I realized it directed me to an anchored tab where I then would have to fill out the form and have to keep dragging to navigate anywhere. This poses a <i>huge</i> problem, because it will take the user at least 3 taps and 5 drags just to access their reservation.</p><br>
+
+                         </div>
+
+                         <div class="col-md-12 col-xs-12">
+                            <img class="img-responsive" src="images/Frontier/FrontierHomePage.png"><br><br>
+                        </div>
+                        <div class="col-md-12">
+                            <p>Second, I took out the redundancies and streamlined the process.</p><br>
+                        </div>
+                         <div class="col-md-12">
+                            <img class="img-responsive" src="images/Frontier/NewFlow.png"><br>
+                        </div>
+
+                </div>
             
             <div class="bottomMarg" />
           </div>
-        <div class="row section">
-            <div class="row-fluid col-md-12">
-                <div class="col-md-4" style="padding:0;">
-                    <h4>Reminder Email</h4><p>This is the reminder email a user gets the day before to remind them to check in for their flight.</p>
-                </div>
-                <div class="col-md-8">
-                    <img class="img-responsive" src="images/Frontier-email.png">
-                    
-                </div>
-                <div class="col-md-12"><br><hr><br</div>
-                
-                
-                <div class="col-md-4" style="padding:0;">
-                    <h4>Online Check-In</h4><p>This is a redundant page that can be taken out of the current Check- In flow. It adds an extra click to the check-in process. If you look at the content of the page, it gives you another “Check In” button and other check-in options. But wasn’t clicking the “Check In” button from the email suppose to signify that the user wants to check in online?</p>
-                </div>
-                <div class="col-md-8">
-                    <img class="img-responsive" src="images/Frontier-Postemail.png">
-                </div>
-                <div class="col-md-12"><br><hr><br></div>
-                <div class="col-md-4" style="padding:0;">
-                    <h4>The view on mobile web when the user clicks “Check In”</h4><p>This definitely would cause confusion, because the user can only see a fraction of the site.</p>
-                </div>
-                <div class="col-md-8">
-                    <img class="img-responsive" src="images/Frontier-Home.png">
-                </div>
-                <div class="col-md-12"><br><hr><br></div>
-                <div class="col-md-4" style="padding:0;">
-                    <h4>Only after the user scrolls down...</h4><p> Then, they realize that the Check In button has taken them to an anchored tab where it will take the user at least 3 taps and 5 drags in order to put in their last name, reservation number, and click the Search button.</p><p>
-                    I won’t include any more screen shots, because I don’t have a valid reservation code.</p>
-                </div>
-                <div class="col-md-8">
-                    <img class="img-responsive" src="images/Frontier-HomeBottom.png">
-                </div>
-             
-
-            </div>
-            <br>
-            <div class="col-md-12">
-                <h3>My Redesign</h3><br>
-                <div class="col-md-12 text-center">
-                    <img class="img-responsive text-center" src="images/frontierSketch.jpg"><br><br>
-                </div>
-                <p>This is my 3rd iteration of the homepage. In this iteration, I increased the size of the buttons to help combat the "fat finger" error. I also changed the background from a more nature-y one to one that gives the nice fluffy feeling of flying above clouds. I liked this picture particularly because of the subtle, cooler colors that won't distract the user as much.</p><br><br>
-                <div class="col-md-12"><img class="img-responsive" src="images/frontierHome.png"><br><br>
+           <div class="row col-md-12">
+            <hr>
+                <div class="topMarg" />
+                    <div class="col-md-12">
+                        <h1>Sketch</h1><br>
+                        <p>I typically do some rough sketches to get some ideas on paper.</p><br>
+                        
+                            <img class="img-responsive text-center" src="images/frontierSketch.jpg"><br><br>
                     </div>
-                
+
+                        
+            </div>
+                <div class="bottomMarg" />
+              </div>
                 <!--<div class="col-md-6"><h4>Version 1</h4><img class="img-responsive" src="images/Homepagev1_iPhone.png"><br><br>
                     </div>
                 <div class="col-md-6"><h4>Version 2</h4><img class="img-responsive" src="images/HomePagev2_iPhone.png"><br><br></div>!-->
-            </div>
-            <div class="bottomMarg" />
+          
+            
+            <div class="row col-md-12">
+                <hr>
+                <div class="topMarg" />
+                    <div class="col-md-12">
+                        <h1>HiFi Mockup</h1><br>
+                        <p>This is my 3rd iteration of the homepage. In this iteration, I increased the size of the buttons to help combat the "fat finger" error. I also changed the background from a more nature-y one to one that gives the nice fluffy feeling of flying above clouds. I liked this picture particularly because of the subtle, cooler colors that won't distract the user as much.</p><br><br>
+                        
+                            <img class="img-responsive" src="images/Frontier/FrontierApp-HomeExplained.png"><br><br>
 
+                    </div>
+                        <!--<div class="col-md-6"><h4>Version 1</h4><img class="img-responsive" src="images/Homepagev1_iPhone.png"><br><br>
+                            </div>
+                        <div class="col-md-6"><h4>Version 2</h4><img class="img-responsive" src="images/HomePagev2_iPhone.png"><br><br></div>!-->
+            </div>
+           
             <div class="col-md-12">
                  <hr><br>
                 <p>This will be the page that a user will see after clicking "Check In" from their email. I've included all the important information for the flight in a easily digestable way. The little plane departure and arrival icons can signal to the user where to quickly see when they will be leaving and arriving. Then finally, I thought a nice finishing touch would be to include the Flight Status so you can anticipate if your plane would be delayed or not.</p><br><br>
-                 <div class="col-md-12"><img class="img-responsive" src="images/flightStatus.png"></div>
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/Frontier/FlightStatus-Explained.png">
+                </div>
                     
             </div>
 

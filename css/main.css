@@ -8,8 +8,18 @@ body {
    margin:0;
    padding:0;
    height:100%;
+   font-family: Helvetica, Arial, sans-serif;
 }
-
+h1 {
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.3999996185303px;
+}
+p {
+	font-size: 18px;
+}
 .container {
     //padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     min-height: 100%
@@ -82,7 +92,6 @@ ul.nav.navbar-nav{
 	margin-top: 20px;
 }
 .section {
-	//margin-bottom: 30px;
 	display:block;
 }
 .projHeading{
