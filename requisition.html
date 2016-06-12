@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
@@ -116,22 +116,25 @@
 
                         <h4>Historically...</h4>
                         <p>Enterprise job requisition forms looked like this.</p><br>
-                        <img class="img-responsive" src="images/Requisition/historical-jobreq.jpg"><br>
+                        <img class="img-responsive" src="images/Requisition/historical-jobreq.jpg"><br><br>
                         <p>Ours were no exception</p>
                         <img class="img-responsive" src="images/Requisition/old-requisition.png"><br><br>
-                        <img class="img-responsive" src="images/Requisition/jobreqform.png"><br>
-
+                        <!-- <div class="col-md-8">
+                            <img class="img-responsive" src="images/Requisition/jobreqform.png"><br>
+                        </div> -->
+                </div>
+                <div class="col-md-12">
                         <h4>What's wrong?</h4>
                         <ul>
                             <li><b>Too many fields</b> - Our existing requisition form has 25 fields with user confusion as to what exactly they all meant. </li>
                             <li><b>Ungrouped fields</b> - Related fields were interspersed </li>
-                            <li>Broken flow - A user would have to go to 3 different places on the platform just to finish creating a requisition</li>
-                            <li>No guidance - It was unclear to the user what the next step was. </li>
-                            <li>Unclear distinction - Users didn’t know which fields would be public and which were private. This caused trust issues because of the severe consequences of disclosing sensitive information like salary data to public [eyes?]. </li>
+                            <li><b>Broken flow</b> - A user would have to go to 3 different places on the platform just to finish creating a requisition</li>
+                            <li><b>No guidance</b> - It was unclear to the user what the next step was. </li>
+                            <li><b>Unclear distinction</b> - Users didn’t know which fields would be public and which were private. This caused trust issues because of the severe consequences of disclosing sensitive information like salary data to public [eyes?]. </li>
 
 
                         </ul><br>
-                        <h4>What was my solution?</h4>
+                        <h4>My Solution</h4>
                          <ul>
                             <li>To reduce the amount of fields</li>
                             <li>Group the fields into sections that had similar purposes to help the more easily form a mental model of how the data will be stored ??</li>
@@ -150,30 +153,9 @@
                 <div class="col-md-12">
                     <h3>Approach</h3><br>
                         <h4>Exploration and Research </h4>
-                        <p>There were too many fields. My first task was to understand what each and every field's purpose was.</p><br>
-                        
-                         <div class="col-md-12 col-xs-12">
-                            
-                        </div>
-
-                         <div class="col-md-12">
-                            <!--  <p>There were a number of things that I found to be problematic in the current flow. <br><br>
-
-                             1. The reminder email brings the user to a redundant page that outlines the check in options that are available. It adds an extra click. The page has yet another “Check In” button. Wasn’t clicking the “Check In” button from the email already signify that the user wanted to check in online?<br><br>
-
-                             2. When you click "Check In" a 2nd time, it directed the user to a magnified unresponsive homepage. I've included what it looks like below. My first reaction was confusion. I didn't know where I was directed to.<br><br> Only after I scrolled down, I realized it directed me to an anchored tab where I then would have to fill out the form and have to keep dragging to navigate anywhere. This poses a <i>huge</i> problem, because it will take the user at least 3 taps and 5 drags just to access the reservation.</p><br> -->
-
-                         </div>
-
-                         <div class="col-md-12 col-xs-12">
-                            <!-- <img class="img-responsive" src="images/Frontier/FrontierHomePage.png"><br><br> -->
-                        </div>
-                        <div class="col-md-12">
-                            <!-- <p>Second, I took out the redundancies and streamlined the process.</p><br> -->
-                        </div>
-                         <div class="col-md-7 col-xs-12 col-md-offset-2">
-                            <!-- <img class="img-responsive" src="images/Frontier/NewFlow.png"><br><br> -->
-                        </div>
+                        <p>There were too many fields. My first task was to understand what each and every field's purpose was and group them accordingly. I interviewed stakeholders and began dissecting. On a Google Doc, I outlined and defined each element.  This way it is all laid out and I can easily organize them into buckets that make more sense. </p><br>
+                        <p>Information Architecture</p><br>
+                        <img class="img-responsive" src="images/Requisition/InfoArch.png"><br>
 
                 </div>
             
@@ -183,9 +165,16 @@
             <hr>
                 <div class="topMarg" />
                     <div class="col-md-12">
-                        <h4>Sketch</h4><br>
-                        <p>I typically do some rough sketches of wireframes to get some ideas on paper.</p><br>
-                        <!-- <img class="img-responsive center" src="images/frontierSketch.jpg"><br><br> -->
+                        <h4>Rough Sketches / Brainstorming</h4><br>
+                        <p>As part of our redesign, I also had to come up with a visual refresh of our new product. So, I spent around 30 minutes coming up with rough sketches of how to improve the way we present form elements. One big problem with our existing forms are using placeholders instead of labels. Especially in a long form, the user will want to review it afterwards, but they won't be able to read which field corresponds to which placeholder. <br><br>
+
+                        The user will have to copy it to their clipboard, erase it, read the placeholder, and then pasted it back into the field for <i>each</i> field. </p><br>
+                        <img class="img-responsive" src="images/Requisition/fieldRefresh.png"><br><br>
+
+                        <p>This new design solves a a lot of problems. </p>
+                        <ul><li>The label now very clearly indicates what the field is and what input is expected</li>
+                        <li>I increased the height of the input field to 45px per Apple's recommendation of a minimum of 44x44 space to correspond roughly to a finger size. </li>
+
                     </div>
 
                         
