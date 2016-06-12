@@ -12,7 +12,6 @@ body {
 
 }
 h1 {
-<<<<<<< HEAD
     font-family: "Lato", "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
@@ -51,26 +50,6 @@ p .tools{
     font-size: 16px;
     line-height: 30px;
     text-transform: uppercase;
-=======
-	font-family: "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
-	font-size: 40px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 300;
-	//line-height: 26.3999996185303px;
-
-}
-p {
-	font-size: 18px;
-	font-weight: 300;
-	line-height: 30px;
-}
-p .tools{
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 30px;
-	text-transform: uppercase;
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 .container {
     //padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
@@ -78,7 +57,6 @@ p .tools{
     position: relative;
 }
 .fa {
-<<<<<<< HEAD
     color: #333;
 }
 .center {
@@ -88,17 +66,6 @@ p .tools{
 #footer {
     margin-bottom:-50px;
     height:50px;
-=======
-	color: #333;
-}
-.center {
-	margin: 0 auto;
-}
-
-#footer {
-	margin-bottom:-50px;
-	height:50px;
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 .portfolio-item {
     margin-bottom: 25px;
@@ -107,11 +74,7 @@ p .tools{
 
 
 .navbar{
-<<<<<<< HEAD
     padding-top:15px;
-=======
-	padding-top:15px;
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 .navbar-nav>li {
     text-transform: uppercase;
@@ -119,15 +82,9 @@ p .tools{
     font-weight:bold;
 }
 .navbar-nav>li>a:hover{
-<<<<<<< HEAD
     border: 3px solid #4EF2D4;
     margin: -3px;
     background-color: #FFFFFF;
-=======
-	border: 3px solid #4EF2D4;
-	margin: -3px;
-	background-color: #FFFFFF;
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
     color:#1f9a84;
 }
 .navbar-nav>li>a{
@@ -144,28 +101,18 @@ p .tools{
     vertical-align:top;
 }
 .header-name{
-<<<<<<< HEAD
     font-family: 'Gabriela', Tahoma, sans-serif;
-=======
-	font-family: 'Gabriela', Tahoma, sans-serif;
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
     font-weight: 900;
 
 }
 .namelink:hover {
-<<<<<<< HEAD
     border: 3px solid #4EF2D4 ; 
     background-color: #FFFFFF;
-=======
-	border: 3px solid #4EF2D4 ; 
-	background-color: #FFFFFF;
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
     color:#1f9a84;
     text-decoration: none;
     padding: 5px;
 }
 .namelink{
-<<<<<<< HEAD
     color: #333;
     text-decoration: none;
     padding: 8px;
@@ -215,62 +162,11 @@ a.projnames:hover{
 }
 .aboutme{
     display: flex;
-=======
-	color: #333;
-	text-decoration: none;
-	padding: 8px;
-}
-
-ul.nav.navbar-nav{
-	margin-right:-30px;
-	margin-left:20px;
-}
-.well {
-	margin-top: 20px;
-}
-.section {
-	display:block;
-}
-.projHeading{
-	text-transform: uppercase;
-	font-weight: 300;
-	font-family:  "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
-}
-
-.proj-description{
-	font-size:16px;
-}
-.description{
-	padding: 10px;
-}
-.bottomMarg{
-	margin-bottom: 30px;
-}
-.topMarg{
-	margin-top: 60px;
-}
-.cpright{
-	padding: 10px 10px 20px 10px;
-}
-a.projnames{
-	font-family:  Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	font-weight:bold;
-	color: #333;
-}
-
-a.projnames:hover{
-	text-decoration: underline;
-}
-.aboutme{
-	display: flex;
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
   justify-content: center;
   flex-direction: column;
   height: 400px;
 }
 .tags{
-<<<<<<< HEAD
     border: #d1d1d1 solid 1px;
     border-radius: 10px;
     padding:10px;
@@ -278,15 +174,6 @@ a.projnames:hover{
 }
 .tagwrapper {
     margin-top: 20px;
-=======
-	border: #d1d1d1 solid 1px;
-	border-radius: 10px;
-	padding:10px;
-	opacity: .9;
-}
-.tagwrapper {
-	margin-top: 20px;
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
@@ -299,7 +186,6 @@ a.projnames:hover{
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles */
-<<<<<<< HEAD
     .cover {
         max-width: 100%;
         height: 300px;
@@ -312,27 +198,12 @@ and (max-device-width : 480px) {
         background-position: center center;
     }
     
-=======
-	.cover {
-	    max-width: 100%;
-	    height: 300px;
-	}
-	.pfimg {
-	    height: 100%;
-	    background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-position: center center;
-	}
-	
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
 and (min-width : 321px) {
 /* Styles */
-<<<<<<< HEAD
     .cover {
         max-width: 100%;
         height: 300px;
@@ -345,20 +216,6 @@ and (min-width : 321px) {
         background-position: center center;
     }
     
-=======
-	.cover {
-	    max-width: 100%;
-	    height: 300px;
-	}
-	.pfimg {
-	    height: 100%;
-	    background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-position: center center;
-	}
-	
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 
 }
 
@@ -366,7 +223,6 @@ and (min-width : 321px) {
 @media only screen 
 and (max-width : 320px) {
 /* Styles */
-<<<<<<< HEAD
     .cover {
         max-width: 100%;
         height: 300px;
@@ -381,22 +237,6 @@ and (max-width : 320px) {
 
     
     
-=======
-	.cover {
-	    max-width: 100%;
-	    height: 300px;
-	}
-	.pfimg {
-	    height: 100%;
-	    background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-position: center center;
-	}
-
-	
-	
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -404,7 +244,6 @@ and (max-width : 320px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 /* Styles */
-<<<<<<< HEAD
     .cover {
         width: 400px;
         height: 300px;
@@ -418,21 +257,6 @@ and (max-device-width : 1024px) {
 
     }
     
-=======
-	.cover {
-	    width: 400px;
-	    height: 300px;
-	}
-	.pfimg {
-	    height: 100%;
-	    background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-position: center center;
-
-	}
-	
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 
 /* iPads (landscape) ----------- */
@@ -441,7 +265,6 @@ and (min-device-width : 600px)
 and (max-device-width : 1024px) 
 and (orientation : landscape) {
 /* Styles */
-<<<<<<< HEAD
     .cover {
         width: 400px;
         height: 300px;
@@ -454,20 +277,6 @@ and (orientation : landscape) {
         background-position: center center;
     }
     
-=======
-	.cover {
-	    width: 400px;
-	    height: 300px;
-	}
-	.pfimg {
-	    height: 100%;
-	    background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-position: center center;
-	}
-	
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 
 /* iPads (portrait) ----------- */
@@ -476,7 +285,6 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) {
 /* Styles */
-<<<<<<< HEAD
     .cover {
         width: 400px;
         height: 300px;
@@ -488,19 +296,6 @@ and (orientation : portrait) {
         -webkit-background-size: cover;
         background-position: center center;
     }
-=======
-	.cover {
-	    width: 400px;
-	    height: 300px;
-	}
-	.pfimg {
-	    height: 100%;
-	    background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-position: center center;
-	}
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 
 }
 
@@ -508,7 +303,6 @@ and (orientation : portrait) {
 @media only screen 
 and (min-width : 1224px) {
 /* Styles */
-<<<<<<< HEAD
     .cover {
         width: 400px;
         height: 300px;
@@ -558,57 +352,6 @@ and (min-width : 1224px) {
       background-color: rgba(0,0,0,.5);
       pointer-events: none;
     }
-=======
-	.cover {
-	    width: 400px;
-	    height: 300px;
-
-	}
-	.accent{
-		background: #4EF2D4;
-	 	width: 30px; 
-	  	position: fixed; 
-	  	height: 100%;
-	  	top:0;
-
-	}
-	.embed {
-		height: 525px;
-		width:100%;
-	}
-	
-	.pfimg {
-	    height: 100%;
-	    background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-position: center center;
-	    //border-radius: 10px;
-
-	}
-	.overlay {
-  		position: relative;
-  		 transition: background-color 1s;
-
-	}
-	.overlay:hover {
-	  background-color: rgba(0,0,0,.5);
-	   //border-radius: 10px;
-	}
-	.overlay:before{
-	  position: absolute;
-	  top: 0; right: 0; bottom: 0; left: 0;
-	  background-color: inherit;
-	  content: ' ';
-	   //border-radius: 10px;
-	}
-
-	.overlay:hover:before{
-	  display: block;
-	  background-color: rgba(0,0,0,.5);
-	  pointer-events: none;
-	}
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 
 }
 
@@ -618,7 +361,6 @@ and (min-width : 1224px) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
-<<<<<<< HEAD
     .cover {
         width: 400px;
         height: 300px;
@@ -630,19 +372,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
         -webkit-background-size: cover;
         background-position: center center;
     }
-=======
-	.cover {
-	    width: 400px;
-	    height: 300px;
-	}
-	.pfimg {
-	    height: 100%;
-	    background-size: cover;
-	    -moz-background-size: cover;
-	    -webkit-background-size: cover;
-	    background-position: center center;
-	}
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
 }
 @media (max-width: 1200px) {
     .navbar-header {
@@ -659,29 +388,17 @@ only screen and (min-device-pixel-ratio : 1.5) {
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
     .navbar-fixed-top {
-<<<<<<< HEAD
         top: 0;
         border-width: 0 0 1px;
     }
-=======
-		top: 0;
-		border-width: 0 0 1px;
-	}
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
     .navbar-collapse.collapse {
         display: none!important;
     }
     .navbar-nav {
         float: none!important;
-<<<<<<< HEAD
         margin-top: 7.5px;
     }
     .navbar-nav>li {
-=======
-		margin-top: 7.5px;
-	}
-	.navbar-nav>li {
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
         float: none;
     }
     .navbar-nav>li>a {
@@ -690,7 +407,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
         text-align: center;
     }
     .header-name{
-<<<<<<< HEAD
         max-width:100%;
         text-align: center;
     }
@@ -699,18 +415,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
     }
 
     .navbar-nav .open .dropdown-menu {
-=======
-    	max-width:100%;
-    	text-align: center;
-    }
-    .collapse.in{
-  		display:block !important;
-	}
-    .navbar-collapse.in {
-        overflow-y: auto !important;
-    }
-	.navbar-nav .open .dropdown-menu {
->>>>>>> 1b901061bb8f984044da6802e2e773c69b860e51
         position: static;
         float: none;
         width: auto;
