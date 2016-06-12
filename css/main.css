@@ -1,0 +1,440 @@
+/*!
+ * Start Bootstrap - 2 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   font-family: Helvetica, Arial, sans-serif;
+
+}
+h1 {
+    font-family: "Lato", "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    //line-height: 26.3999996185303px;
+
+}
+h3 {
+    font-family: "Lato", "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #9b9b9b;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-variant: normal;
+    font-weight: 500;
+    //line-height: 26.3999996185303px;
+
+}
+h4 {
+    font-family: "Lato", "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #4A4A4A;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+p, li {
+    font-size: 16px;
+    color: #4A4A4A;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+p .tools{
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.container {
+    //padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    min-height: 100%
+    position: relative;
+}
+.fa {
+    color: #333;
+}
+.center {
+    margin: 0 auto;
+}
+
+#footer {
+    margin-bottom:-50px;
+    height:50px;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+    padding:20px;
+}
+
+
+.navbar{
+    padding-top:15px;
+}
+.navbar-nav>li {
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-weight:bold;
+}
+.navbar-nav>li>a:hover{
+    border: 3px solid #4EF2D4;
+    margin: -3px;
+    background-color: #FFFFFF;
+    color:#1f9a84;
+}
+.navbar-nav>li>a{
+    color:#7A8282;
+}
+.navbar-toggle {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+}
+
+.portfolio-item{
+    overflow:hidden;
+    vertical-align:top;
+}
+.header-name{
+    font-family: 'Gabriela', Tahoma, sans-serif;
+    font-weight: 900;
+
+}
+.namelink:hover {
+    border: 3px solid #4EF2D4 ; 
+    background-color: #FFFFFF;
+    color:#1f9a84;
+    text-decoration: none;
+    padding: 5px;
+}
+.namelink{
+    color: #333;
+    text-decoration: none;
+    padding: 8px;
+}
+
+ul.nav.navbar-nav{
+    margin-right:-30px;
+    margin-left:20px;
+}
+.well {
+    margin-top: 20px;
+}
+.section {
+    display:block;
+}
+.projHeading{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #9B9B9B;
+    font-family:  "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+}
+
+.proj-description{
+    font-size:16px;
+}
+.description{
+    padding: 10px;
+}
+.bottomMarg{
+    margin-bottom: 30px;
+}
+.topMarg{
+    margin-top: 60px;
+}
+.cpright{
+    padding: 10px 10px 20px 10px;
+}
+a.projnames{
+    font-family:  Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight:bold;
+    color: #333;
+}
+
+a.projnames:hover{
+    text-decoration: underline;
+}
+.aboutme{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+.tags{
+    border: #d1d1d1 solid 1px;
+    border-radius: 10px;
+    padding:10px;
+    opacity: .9;
+}
+.tagwrapper {
+    margin-top: 20px;
+}
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Media Queries
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+    .cover {
+        max-width: 100%;
+        height: 300px;
+    }
+    .pfimg {
+        height: 100%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+    }
+    
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+    .cover {
+        max-width: 100%;
+        height: 300px;
+    }
+    .pfimg {
+        height: 100%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+    }
+    
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+    .cover {
+        max-width: 100%;
+        height: 300px;
+    }
+    .pfimg {
+        height: 100%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+    }
+
+    
+    
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+    .cover {
+        width: 400px;
+        height: 300px;
+    }
+    .pfimg {
+        height: 100%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+
+    }
+    
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 600px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+    .cover {
+        width: 400px;
+        height: 300px;
+    }
+    .pfimg {
+        height: 100%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+    }
+    
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+    .cover {
+        width: 400px;
+        height: 300px;
+    }
+    .pfimg {
+        height: 100%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+    }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+    .cover {
+        width: 400px;
+        height: 300px;
+
+    }
+    .accent{
+        background: #4EF2D4;
+        width: 30px; 
+        position: fixed; 
+        height: 100%;
+        top:0;
+
+    }
+    .embed {
+        height: 525px;
+        width:100%;
+    }
+    
+    .pfimg {
+        height: 100%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+        //border-radius: 10px;
+
+    }
+    .overlay {
+        position: relative;
+         transition: background-color 1s;
+
+    }
+    .overlay:hover {
+      background-color: rgba(0,0,0,.5);
+       //border-radius: 10px;
+    }
+    .overlay:before{
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      background-color: inherit;
+      content: ' ';
+       //border-radius: 10px;
+    }
+
+    .overlay:hover:before{
+      display: block;
+      background-color: rgba(0,0,0,.5);
+      pointer-events: none;
+    }
+
+}
+
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+    .cover {
+        width: 400px;
+        height: 300px;
+    }
+    .pfimg {
+        height: 100%;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center center;
+    }
+}
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .header-name{
+        max-width:100%;
+        text-align: center;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+    }
+    .navbar-nav .open .dropdown-menu>li>a, .navbar-nav .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #999;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover, 
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus {
+        color: #fff;
+        background-color: transparent;
+        background-image:none;
+    }
+
+    
+}
