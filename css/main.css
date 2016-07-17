@@ -34,7 +34,7 @@ h3 {
 }
 h4 {
     font-family: "Lato", "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #4A4A4A;
     letter-spacing: 1px;
     font-weight: 700;
@@ -129,17 +129,19 @@ ul.nav.navbar-nav{
     display:block;
 }
 .projHeading{
-    text-transform: uppercase;
-    font-weight: 300;
-    color: #9B9B9B;
-    font-family:  "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+    //text-transform: uppercase;
+    font-weight: 500;
+    color: #4A4A4A;
+    
+    font-family: "Lato", "Helvetica Neue-Light" , "Helvetica Neue Light", Helvetica, Arial, sans-serif;
 }
 
 .proj-description{
     font-size:16px;
+    padding: 100px 0;
 }
 .description{
-    padding: 10px;
+    padding: 100px 0;
 }
 .bottomMarg{
     margin-bottom: 30px;
