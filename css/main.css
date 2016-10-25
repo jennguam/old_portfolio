@@ -111,11 +111,11 @@ p .tools{
 
 }
 .namelink:hover {
-    border: 3px solid #4EF2D4 ;
-    background-color: #FFFFFF;
+    /*border: 3px solid #4EF2D4 ;*/
+    /*background-color: #FFFFFF;*/
     color:#1f9a84;
     text-decoration: none;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 .namelink{
     color: #333;
