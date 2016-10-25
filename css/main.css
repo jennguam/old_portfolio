@@ -87,8 +87,8 @@ p .tools{
     font-weight:bold;
 }
 .navbar-nav>li>a:hover{
-    border: 3px solid #4EF2D4;
-    margin: -3px;
+    /*border: 3px solid #4EF2D4;
+    margin: -3px;*/
     background-color: #FFFFFF;
     color:#1f9a84;
 }
