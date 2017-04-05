@@ -1,0 +1,113 @@
+ <div class="row-fluid">
+            <div class="page-header col-lg-12">
+                <div class="navbar"></div>
+                <div class="col-lg-5"><h1 class="header-name"><a class="namelink" href="../">Meet Jenn.</a></h1></div>
+                 <div class="col-lg-7">
+                    <nav class="navbar navbar-right" role="navigation">
+           
+                        <div class="navbar-header navbar-default navbar-fixed-top text-center">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="glyphicon glyphicon-align-justify"></span>
+                                <span class="navmenu">Menu</span>
+                                
+                            </button>
+                            
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="../">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="about">About</a>
+                                </li>
+                                <li>
+                                    <a href="photos">Photos</a>
+                                </li>
+                                <li>
+                                    <a href="resume">Resume</a>
+                                </li>
+                            </ul>
+                        </div>
+           
+                    </nav>
+                </div>
+            </div>
+        </div>
+                
+    
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <div class="cover overlay">
+                    <a href="frontier">
+                        <div style="background-image: url('images/frontierHome.png');" class="img-responsive pfimg"></div>
+                    </a>
+                </div>
+                <h3>
+                    <a class="projnames" href="frontier">Frontier Airlines Redesign</a>
+                </h3>
+                <p class="proj-description">Redesigning a better check in process</p>
+                
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <div class="cover overlay">
+                    <a href="thirdwave">
+                        <div style="background-image: url('images/ThirdWave/Mobile_BeanPage_thumb.png');" class="img-responsive pfimg"></div>
+                    </a>
+                </div>
+                <h3>
+                    <a class="projnames" href="thirdwave">Third Wave Coffee - WIP</a>
+                </h3>
+                <p class="proj-description">A social coffee bean review app.</p>
+
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <div class="cover overlay">
+                    <a href="spherecon">
+                        <div style="background-image: url('images/SphereCon-Thumb.png');" class="img-responsive pfimg"></div>
+                    </a>
+                </div>
+                <h3>
+                    <a class="projnames" href="spherecon">SphereCon </a>
+                </h3>
+                <p class="proj-description">SphereCon is a 1-day conference for and organized by the Apache Mesos community</p>
+                 
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <div class="cover overlay">
+                    <a href="landing">
+                        <div style="background-image: url('images/gaming-thumb.png');" class="img-responsive pfimg"></div>
+                    </a>
+                </div>
+                <h3>
+                    <a class="projnames" href="landing">Product Landing Page</a>
+                </h3>
+                <p class="proj-description">A landing page that explains the product to gaming companies</p>
+            </div>
+            
+            
+            
+        </div>
+
+         <div class="row">
+            
+            <div class="col-md-6 portfolio-item">
+                <div class="cover overlay">
+                    <a href="marketing">
+                        <div style="background-image: url('images/email-thumb.png');" class="img-responsive pfimg"></div>
+                    </a>
+                </div>
+                <h3>
+                    <a class="projnames" href="marketing">Marketing Collateral </a>
+                </h3>
+                <p class="proj-description">Designed and implemented landing pages and emails for the marketing department</p>
+                 
+            </div>
+            
+            
+        </div>
